@@ -28,7 +28,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.lol.daily_tasks"
+    namespace = "com.example.daily_tasks"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = "25.1.8937393"
 

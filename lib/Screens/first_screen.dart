@@ -14,7 +14,7 @@ class _OneScreenState extends State<OneScreen> {
   @override
   void initState() {
     super.initState();
-    Future.delayed(const Duration(seconds: 5), () {
+    Future.delayed(const Duration(seconds: 7), () {
       Get.off(() => const TwoScreen());
     });
   }
